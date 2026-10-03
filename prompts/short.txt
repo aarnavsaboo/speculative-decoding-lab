@@ -1,0 +1,1 @@
+Explain in a short paragraph why a draft model can make speculative decoding faster only when enough proposed tokens are accepted.

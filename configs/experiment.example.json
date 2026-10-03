@@ -1,0 +1,13 @@
+{
+  "target_models": ["models/target.gguf"],
+  "draft_models": ["models/draft.gguf"],
+  "prompt_files": ["prompts/short.txt", "prompts/long.txt"],
+  "spec_types": ["draft-simple"],
+  "draft_n_min": [0],
+  "draft_n_max": [2, 4, 8],
+  "output_tokens": [128, 512],
+  "temperature": [0.0],
+  "repeats": 3,
+  "target_gpu_layers": "all",
+  "draft_gpu_layers": "all"
+}
